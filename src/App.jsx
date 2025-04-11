@@ -1,4 +1,5 @@
 import Foods from "./components/Foods";
+import MessageBtn from "./components/MessageBtn";
 import PropsDemo from "./components/PropsDemo";
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Foods />
       <hr />
       <PropsDemo person={person}  />
+
+      <MessageBtn/>
     </div>
   );
 }
