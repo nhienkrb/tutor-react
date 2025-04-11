@@ -1,5 +1,7 @@
-export default function PropsDemo({ name, message }) {
+export default function PropsDemo({ person }) {
   return (
-    <div> PropsDemo: {message} - {name}</div>
+    <div>
+      (PropsDemo:) Name: {person.name} - Age: {person.age} - seatNumbers: {person.seatNumbers.join(", ")}
+    </div>
   );
 }
