@@ -6,6 +6,5 @@ import Foods from './components/Foods'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Foods />
   </React.StrictMode>,
 )
