@@ -1,3 +1,4 @@
+import Form from "./components/demo-handle-form/Form";
 import Counter from "./components/demo-state/couter";
 import Foods from "./components/Foods";
 import MessageBtn from "./components/MessageBtn";
@@ -16,12 +17,14 @@ function App() {
   };
   return (
     <div className="App">
-      <Foods />
+      {/* <Foods />
       <hr />
       <PropsDemo person={person}  />
       <MessageBtn/>
       <hr />
-      <Counter />
+      <Counter /> */}
+
+      <Form />
     </div>
   );
 }
