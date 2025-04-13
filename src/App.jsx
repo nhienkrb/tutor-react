@@ -1,8 +1,4 @@
 import Form from "./components/demo-handle-form/Form";
-import Counter from "./components/demo-state/couter";
-import Foods from "./components/Foods";
-import MessageBtn from "./components/MessageBtn";
-import PropsDemo from "./components/PropsDemo";
 
 function App() {
   const person = {
