@@ -7,6 +7,8 @@ export default function Form() {
   }
 
   return (
+  <div> 
+    <p>First Name: {name.firstName}</p>
     <form>
       <input
         onChange={ handleChange}
@@ -17,5 +19,6 @@ export default function Form() {
       <input type="email" name="email" placeholder="Email" />
       <button type="submit">Submit</button>
     </form>
+    </div>
   );
 }
