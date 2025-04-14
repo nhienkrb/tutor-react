@@ -1,5 +1,6 @@
-import Form from "./components/demo-handle-form/Form";
-
+import Heading from "./components/todo-list/heading";
+import Todo from "./components/todo-list/Todo";
+import css from './app.css'; // phải lùi ra 1 cấp
 function App() {
   const person = {
     name: "John",
@@ -19,8 +20,8 @@ function App() {
       <MessageBtn/>
       <hr />
       <Counter /> */}
-
-      <Form />
+      <Heading />
+      <Todo />
     </div>
   );
 }

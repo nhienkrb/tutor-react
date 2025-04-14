@@ -1,0 +1,18 @@
+.item{
+    width: 500px;
+    color: #353535;
+    font-size: 20px;
+    margin: 0 auto  ;
+}
+.itemName{
+    font-weight: bold;
+    padding: 10px;
+}
+.line{
+    border: 1px solid #dadada;
+}
+.itemContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
