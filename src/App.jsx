@@ -1,6 +1,4 @@
-import Heading from "./components/todo-list/heading";
-import Todo from "./components/todo-list/Todo";
-import css from './app.css'; // phải lùi ra 1 cấp
+import DemoReducer from "./demoReducer";
 function App() {
   const person = {
     name: "John",
@@ -20,8 +18,9 @@ function App() {
       <MessageBtn/>
       <hr />
       <Counter /> */}
-      <Heading />
-      <Todo />
+      {/* <Heading />
+      <Todo /> */}
+      <DemoReducer />
     </div>
   );
 }
